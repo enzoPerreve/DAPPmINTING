@@ -124,7 +124,7 @@ function HeadSection(props) {
         to: "0xf1De1A5c5a0091F54b8d6c87CDab1503c10c259B",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (_amount).toString(),
+          (0.5).toString(),
           "ether"
         ),
       })
@@ -274,7 +274,7 @@ function HeadSection(props) {
                             disabled={claimingNft ? 1 : 0}
                             onClick={(e) => {
                               e.preventDefault();
-                              claimNFTs(0,5);
+                              claimNFTs(1);
                               getData();
                             }}
                           >
