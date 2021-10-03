@@ -234,7 +234,7 @@ function NavBar(props) {
                 display="inline"
                 color="primary"
               >
-                Wa
+                Alps
               </Typography>
               <Typography
                 variant="h4"
@@ -242,7 +242,7 @@ function NavBar(props) {
                 display="inline"
                 color="secondary"
               >
-                Ver
+                Hunks
               </Typography>
             </Hidden>
           </Box>
