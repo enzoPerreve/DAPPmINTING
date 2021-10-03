@@ -1,9 +1,9 @@
 {
-  "name": "react-saas-template",
+  "name": "AlpsHunks",
   "version": "1.0.0",
   "private": true,
-  "homepage": "",
-  "description": "Template for building an SaaS/admin application using React + Material-UI",
+  "homepage": "http://cryptohunks.net/",
+  "description": "AlpshunksMinting",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
     "@material-ui/core": "^4.12.3",
@@ -26,6 +26,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "recharts": "^2.1.2",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "react-redux": "^7.2.5",
     "workbox-background-sync": "^6.2.4",
     "workbox-broadcast-update": "^6.2.2",
     "workbox-cacheable-response": "^6.2.4",
@@ -37,7 +40,16 @@
     "workbox-range-requests": "^6.1.5",
     "workbox-routing": "^6.2.4",
     "workbox-strategies": "^6.1.5",
-    "workbox-streams": "^6.1.5"
+    "workbox-streams": "^6.1.5",
+    "all": "^0.0.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "ipfs-http-client": "^52.0.0",
+    "react-canvas-draw": "^1.1.1",
+    "react-signature-canvas": "^1.0.3",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",

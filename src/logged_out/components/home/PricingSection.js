@@ -50,7 +50,7 @@ function PricingSection(props) {
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
       <Typography variant="h3" align="center" className="lg-mg-bottom">
-        Pricing
+        Roadmap
       </Typography>
       <div className={classNames("container-fluid", classes.containerFix)}>
         <Grid
@@ -67,14 +67,15 @@ function PricingSection(props) {
             data-aos="zoom-in-up"
           >
             <PriceCard
-              title="Starter"
+            highlighted
+              title="Mint"
               pricing={
                 <span>
-                  $14.99
-                  <Typography display="inline"> / month</Typography>
+                  25
+                  <Typography display="inline">%</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={["20 $AVAX Giveaway", "Open Telegram", "Verify on NFT Trade"]}
             />
           </Grid>
           <Grid
@@ -87,15 +88,15 @@ function PricingSection(props) {
             data-aos-delay="200"
           >
             <PriceCard
-              highlighted
-              title="Premium"
+              
+              title="Mint"
               pricing={
                 <span>
-                  $29.99
-                  <Typography display="inline"> / month</Typography>
+                  50
+                  <Typography display="inline">%</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={["We will raffle 5 AlpsHunks on twitter ", "We will raffle 5 AlpsHunks on Discord"]}
             />
           </Grid>
           <Grid
@@ -108,14 +109,14 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
             <PriceCard
-              title="Business"
+              title="Mint"
               pricing={
                 <span>
-                  $49.99
-                  <Typography display="inline"> / month</Typography>
+                  75
+                  <Typography display="inline"> %</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={["We will raffle 10 AplsHunks and $AVAX ! ", "We are also going to make a music contest because the Alpshunks like to ski or surf with some music !"]}
             />
           </Grid>
           <Grid
@@ -128,14 +129,14 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
           >
             <PriceCard
-              title="Tycoon"
+              title="Mint"
               pricing={
                 <span>
-                  $99.99
-                  <Typography display="inline"> / month</Typography>
+                  100
+                  <Typography display="inline"> %</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={["Distribution of the Airdrop V2", "Launch of the second generation ! ","Owners of the first generation will be rewarded with a 30% share on the minting of the second generation"]}
             />
           </Grid>
         </Grid>
