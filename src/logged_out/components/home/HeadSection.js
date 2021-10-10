@@ -124,7 +124,7 @@ function HeadSection(props) {
         to: "0xf1De1A5c5a0091F54b8d6c87CDab1503c10c259B",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (0.5).toString(),
+          (1).toString(),
           "ether"
         ),
       })
@@ -197,14 +197,14 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          0,5 $AVAX for an AlpsHunks 
+                          1 $AVAX for an AlpsHunks 
                         </Typography>
                       </Box>
                       <Box>
                       <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          69/1000
+                          124/1000
                         </Typography>
                       </Box>
                     
@@ -245,14 +245,14 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          0,5 $AVAX for an AlpsHunks 
+                          1 $AVAX for an AlpsHunks 
                         </Typography>
                       </Box>
                       <Box>
                       <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          69/1000
+                          124/1000
                         </Typography>
                       </Box>
                       
