@@ -27,7 +27,7 @@
     "react-scripts": "^4.0.3",
     "recharts": "^2.1.2",
     "redux": "^4.1.1",
-    "redux-thunk": "^2.3.0",
+    "redux-thunk": "^2.4.1",
     "react-redux": "^7.2.5",
     "workbox-background-sync": "^6.2.4",
     "workbox-broadcast-update": "^6.2.2",
